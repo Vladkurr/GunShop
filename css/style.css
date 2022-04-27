@@ -67,7 +67,7 @@ button {
 }
 
 .logo__item {
-    max-width: 100%;
+    width: 100%;
 }
 
 .header-nav {}
@@ -242,5 +242,5 @@ button {
 .main-image {}
 
 .main-image__item {
-    max-width: 100%;
+    width: 100%;
 }

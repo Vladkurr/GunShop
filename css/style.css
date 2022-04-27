@@ -1,0 +1,245 @@
+/*Шрифты*/
+
+
+/*Обнуление*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background: url(../img/back.png);
+    background-repeat: no-repeat;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.04vw;
+    line-height: 1.25vw;
+    color: #FFFFFF;
+}
+
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+/*Шаблоны*/
+
+.container {
+    width: 61.4vw;
+    margin: 0 auto;
+}
+
+
+/*HEADER*/
+
+.header {
+    padding: 2.08vw 0 0 0;
+    margin: 0 0 3.13vw 0;
+}
+
+.header-container {}
+
+.header__logo {
+    width: 7.50vw;
+    margin: 0 auto 2.86vw auto;
+}
+
+.logo__item {
+    max-width: 100%;
+}
+
+.header-nav {}
+
+.header-menu {
+    display: flex;
+}
+
+.header__item {}
+
+.header__button {
+    height: 100%;
+    padding: 0 1.93vw 0.73vw;
+    border-bottom: 1px solid #2D2D2D;
+    color: #898989;
+}
+
+.header__item .header__button:nth-child(1) {
+    padding: 0 1.53vw 0.73vw 1.04vw;
+}
+
+.header__item .header__button:nth-child(6) {
+    padding: 0 1.04vw 0.73vw 1.93vw;
+}
+
+.header__item .header__button.active {
+    opacity: 1;
+    border: 0px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.header__item .header__button.active::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100%;
+    background: linear-gradient(92.7deg, #FFB800 -13.48%, #FFD464 34.14%);
+    box-shadow: 0px 0px 14px #FFD464;
+}
+
+
+/*MAIN*/
+
+.main {
+    padding: 0 0 0.9vw 0;
+}
+
+.main-container {}
+
+.main-row {
+    display: flex;
+}
+
+.main-column:nth-child(1) {
+    flex: 0 0 12.50vw;
+    margin: 0 3.65vw 0 0;
+}
+
+.main-column:nth-child(2) {
+    flex: 0 0 45.31vw;
+}
+
+.main-nav {}
+
+.main-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.78vw;
+}
+
+.main__item {
+    text-align-last: left;
+}
+
+.main__button {
+    width: 100%;
+    padding: 0.94vw 0 0.94vw 1.04vw;
+    background: rgba(255, 255, 255, 0.05);
+    position: relative;
+}
+
+.main__button.active::after {
+    content: '';
+    height: 100%;
+    width: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(92.7deg, #FFB800 -13.48%, #FFD464 34.14%);
+}
+
+.main-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 0.78vw 0;
+}
+
+.main__title {
+    font-family: 'Gilroy';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 3.13vw;
+    line-height: 3.80vw;
+}
+
+.main-buy {}
+
+.main-buy__button {
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 1.15vw;
+    line-height: 1.35vw;
+    color: #000000;
+    background: linear-gradient(92.7deg, #FFB800 -13.48%, #FFD464 34.14%);
+    box-shadow: 0px 0px 14px #FFD464;
+    padding: 1.04vw 3.91vw;
+}
+
+.main-mid {
+    display: flex;
+    align-items: center;
+    margin: 0 0 4.17vw 0;
+}
+
+.main-cost {
+    margin: 0 4.95vw 0 0;
+}
+
+.main-cost__text {
+    font-size: 0.83vw;
+    color: #898989;
+    line-height: 1.7vw;
+}
+
+.main-cost__text span {
+    font-size: 1.77vw;
+    color: #FFD363;
+}
+
+.main-ammo {
+    margin: 0 1.04vw 0 0;
+}
+
+.main-ammo__text {
+    font-size: 0.83vw;
+    color: #898989;
+    line-height: 1.7vw;
+}
+
+.main-ammo__text span {
+    font-size: 1.77vw;
+    color: #fff;
+}
+
+.main-link {}
+
+.main-link__item {
+    padding: 0.57vw 1.04vw;
+    background: rgba(255, 255, 255, 0.05);
+    color: #575757;
+    font-weight: 600;
+    line-height: 0.99vw;
+    font-size: 0.83vw;
+}
+
+.main-bottom {}
+
+.main-image {}
+
+.main-image__item {
+    max-width: 100%;
+}

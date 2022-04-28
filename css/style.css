@@ -1,5 +1,21 @@
 /*Шрифты*/
 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-SemiBold.ttf');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-BoldItalic.ttf');
+    font-weight: 700;
+    font-display: swap;
+    font-style: italic;
+}
+
 
 /*Обнуление*/
 
@@ -150,6 +166,7 @@ button {
     padding: 0.94vw 0 0.94vw 1.04vw;
     background: rgba(255, 255, 255, 0.05);
     position: relative;
+    font-size: 0.94vw;
 }
 
 .main__button.active::after {

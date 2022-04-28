@@ -96,17 +96,19 @@ button {
 
 .header__button {
     height: 100%;
-    padding: 0 1.93vw 0.73vw;
+    padding: 0 2.6vw 0.73vw;
     border-bottom: 0.05vw solid #2D2D2D;
     color: #898989;
+    font-weight: 700;
+    font-size: 1.04vw;
 }
 
 .header__item .header__button:nth-child(1) {
-    padding: 0 1.53vw 0.73vw 1.04vw;
+    padding: 0 2vw 0.73vw 1.6vw;
 }
 
 .header__item .header__button:nth-child(6) {
-    padding: 0 1.04vw 0.73vw 1.93vw;
+    padding: 0 1.04vw 0.73vw 2.5vw;
 }
 
 .header__item .header__button.active {
@@ -169,6 +171,12 @@ button {
     font-size: 0.94vw;
 }
 
+.main__button:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.main__button.active {}
+
 .main__button.active::after {
     content: '';
     height: 100%;
@@ -203,8 +211,11 @@ button {
     line-height: 1.35vw;
     color: #000000;
     background: linear-gradient(92.7deg, #FFB800 -13.48%, #FFD464 34.14%);
-    box-shadow: 0 0 0.73vw #FFD464;
     padding: 1.04vw 3.91vw;
+}
+
+.main-buy__button:hover {
+    box-shadow: 0 0 0.73vw #FFD464;
 }
 
 .main-mid {
